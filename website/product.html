@@ -1,0 +1,1722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Madina Monawara  - Ice Cream Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+     <!-- Topbar Start -->
+ <div class="container-fluid bg-primary py-3 d-none d-md-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center">
+                    
+                    <a class="text-white px-3" href="contact.html">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="contact.html">Support</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="https://www.facebook.com/ElMadinaElMenawara">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="https://www.tiktok.com/@elmadina.elmonawara">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    
+               
+                    <a class="text-white px-3" href="https://www.instagram.com/elmadina.elmonawara/?hl=en">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                   
+                    
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative nav-bar p-0">
+        <div class="container-lg position-relative p-0 px-lg-3" style="z-index: 9;">
+            <nav class="navbar navbar-expand-lg bg-white navbar-light shadow p-lg-0">
+                <a href="index.html" class="navbar-brand d-block d-lg-none">
+                    <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Madina</span>Monawara</h1>
+                </a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Home</a>
+                       
+                        <a href="product.html" class="nav-item nav-link active">Menu</a>
+                    </div>
+                    <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                        <h1 class="m-0 display-4 text-primary"><span class="text-secondary">Madina </span>Monawara</h1>
+                    </a>
+                    <div class="navbar-nav mr-auto py-0">
+                     
+                        <a href="Login_register.html" class="nav-item nav-link">Login/Register</a>
+                        <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    
+    <!-- Header End -->
+
+
+<!-- Products Start -->
+
+
+<div id="products" class="container" >
+        <div class="row justify-content-center">
+            <div class="col-lg-6">
+                <h1 class="section-title position-relative text-center mb-5">Menu</h1>
+            </div>
+        </div>
+        <style>
+           /*  CSS for product items */
+            .product-item {
+                height: 100%; /* Ensure each product item occupies the same height */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                background-color: #f8f9fa; /* Light background color */
+                border-radius: 10px;
+                padding: 20px;
+            }
+            #products {
+    width: 100%; /* Set the width to 100% to span the entire width of its parent */
+    max-width: 1200px; /* Set a maximum width to prevent it from becoming too wide */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding for spacing */
+    height: 800px; /* Set the desired height */
+}
+
+            /* CSS for product images */
+            .product-item img {
+                width: 100%;
+                height: 200px; /* Adjust as needed */
+                object-fit: cover;
+                margin-bottom: 10px; /* Spacing below the image */
+            }
+        
+            /* CSS for quantity input and add to cart button */
+            .quantity-input,
+            .btn-add-to-cart {
+                margin-top: auto; /* Push quantity input and button to the bottom */
+            }
+        </style>
+
+        <!-- Bakery Items -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h2 class="section-title position-relative text-center mb-4">Bakery Items</h2>
+            </div>
+            <!-- Product 1: Coconut Biscuit -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">30 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Coconut Biscuit</h5>
+                    <img src="cookies.png"  class="img-fluid mb-4">
+
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+        <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 2: Palme -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Diet Toast</h5>
+                    <img src="diet.jpg" alt="Palme" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 3: Shaklmah -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Shaklmah</h5>
+                    <img src="palme.jpg" alt="Palme" class="img-fluid mb-4">
+                        
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 4: Barley Bread -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">13 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Barley Bread</h5>
+                    <img src="barley.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+        
+     
+        <div class="row">
+            <!-- Product 5: Ein Yamama -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Ein Yamama</h5>
+                    <img src="barley.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 6: Kaboria -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Kaboria</h5>
+                    <img src="crab.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 7: Mille Feuille -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">150 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Mille Feuille</h5>
+                    <img src="millfue.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+
+                    </div>
+                            
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 8: Qatayef -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">28 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Qatayef</h5>
+                    <img src="katayef.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+        
+        <!-- Additional Bakery Items -->
+        <div class="row">
+            <!-- Product 9: Konafa -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">35 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Konafa</h5>
+                    <img src="kunafa.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 10: Special Feteer -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">180 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Special Feteer</h5>
+                    <img src="feterr.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 11: Chocolate Konafa -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">35 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Chocolate Konafa</h5>
+                    <img src="chockun.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 12: Cheese Pizza -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">13 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Cheese Pizza</h5>
+                    <img src="minipizza.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+    
+        <div class="row">
+            <!-- Product 13: Cheese Borek -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">27 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Cheese Borek</h5>
+                    <img src="burek.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <!-- Product 14: Plain Menin -->
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">20 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Plain Menin (200 gm)</h5>
+                    <img src="minin.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">35 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Danish with Raisins</h5>
+                    <img src="danish.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 mb-4 pb-2">
+                <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+                    <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                        <h4 class="font-weight-bold text-white mb-0">12 EGP</h4>
+                    </div>
+                    <h5 class="font-weight-bold mb-4">Cup Cake</h5>
+                    <img src="cup.jpg" class="img-fluid mb-4">
+                    <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                        <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                        <input type="text" value="1" readonly class="form-control mx-2">
+                        <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+                    </div>
+                            
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="section-title position-relative text-center mb-4">ICE CREAM</h2>
+    </div>
+</div>
+<div class="row">
+    <!-- Product 1: Biscuit -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">5 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Biscuit</h5>
+            <img src="cone.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+            <button class="btn btn-primary" onclick="addItemToCart(' Biscuit', 5)">Add to Cart</button>
+
+        </div>
+    </div>
+    <!-- Product 2: Chocolate Biscuit -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">7 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Chocolate Biscuit</h5>
+            <img src="chocone.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 3: Cantaloupe Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Cantaloupe Ice Cream</h5>
+            <img src="cant.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 4: Banana Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Banana Ice Cream</h5>
+            <img src="bana.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <!-- Product 5: Dates Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Dates Ice Cream</h5>
+            <img src="dates.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 6: Peach Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Peach Ice Cream</h5>
+            <img src="peach.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 7: Mocha Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Mocha Ice Cream</h5>
+            <img src="mocha.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 8: Watermelon Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Watermelon Ice Cream</h5>
+            <img src="watermelon.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <!-- Product 9: Plain Lemon Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Plain Lemon Ice Cream</h5>
+            <img src="lemon.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 10: Cassatta Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Cassatta Ice Cream</h5>
+            <img src="kasata.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 11: Sugared Fruits Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Sugared Fruits Ice Cream</h5>
+            <img src="fruity.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 12: Italian Berry Yogurt Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Italian Berry Yogurt Ice Cream</h5>
+            <img src="blueb.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <!-- Product 13: Coffee Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Coffee Ice Cream</h5>
+            <img src="mocha.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 14: Guava Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Guava Ice Cream</h5>
+            <img src="guava.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 15: Pineapple Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Pineapple Ice Cream</h5>
+            <img src="pin.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 16: Pistachio Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">30 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Pistachio Ice Cream</h5>
+            <img src="Pistachio.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Product 17: Strawberry Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Strawberry Ice Cream</h5>
+            <img src="strawb.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 18: Blueberry Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Blueberry Ice Cream</h5>
+            <img src="blueb.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 19: cho Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Chocolate Ice Cream</h5>
+            <img src="choc.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 20: Vanilla Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Vanilla Ice Cream</h5>
+            <img src="van.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Product 21: Caramel Swirl Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Caramel Swirl Ice Cream</h5>
+            <img src="caramel.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 22: Mint Chocolate Chip Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Mint Chocolate Chip Ice Cream</h5>
+            <img src="mint.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 23: Cookies and Cream Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Cookies and Cream Ice Cream</h5>
+            <img src="cookisnc.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    <!-- Product 24: Tiramisu Ice Cream -->
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">30 EGP</h4>
+            </div>
+            <h5 class="font-weight-bold mb-4">Tiramisu Ice Cream</h5>
+            <img src="tirams.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+           <!-- Desserts -->
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="section-title position-relative text-center mb-4">Desserts</h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-3 col-md-6 mb-4 pb-2">
+        <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+            <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+                <h4 class="font-weight-bold text-white mb-0">35 EGP</h4> <!-- Adjusted price for Om Ali -->
+            </div>
+            <h5 class="font-weight-bold mb-4">Om Ali</h5> <!-- Replaced the name with Om Ali -->
+            <img src="omali.jpg" class="img-fluid mb-4">
+            <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+                <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+                <input type="text" value="1" readonly class="form-control mx-2">
+                <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+            </div>
+                    
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+        </div>
+    </div>
+    
+   <!-- Product 2 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">45 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Pumpkin</h5>
+        <img src="pump.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 3 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">26 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Cream Caramel</h5>
+        <img src="creamcarmel.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 4 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">40 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Brown Profiterole</h5>
+        <img src="profit.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 5 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">40 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">White Profiterole</h5>
+        <img src="profitwhite.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 6 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">32 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Trifle</h5>
+        <img src="trufle.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 7 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0"> 60 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Nutella  Crepe</h5>
+        <img src="nutcrep.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 8 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Jelly</h5>
+        <img src="jelly.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 8 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Jelly with Strawberry</h5>
+        <img src="jelstraw.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 9 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Jelly with Milk Pudding</h5>
+        <img src="jellypud.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 10 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Jelly and Custard</h5>
+        <img src="strawjell.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 11 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Custard</h5>
+        <img src="custard.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 12 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">21 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Custard with Milk Pudding</h5>
+        <img src="custerm.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 13 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">26 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4"> Chocolate Pudding</h5>
+        <img src="chockunpud.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 14 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0"> 40 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Strawberry Crepe</h5>
+        <img src="strawbcrep.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 15 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">27 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Qamar El Din</h5>
+        <img src="qamar.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 16 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">17 - 26 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Rice Pudding</h5>
+        <img src="rice.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 17 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Tropical Waffle</h5>
+        <img src="wafflefruit.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 18 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">25 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Stick Waffle</h5>
+        <img src="wafflestick.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 19 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">45 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Jamica Nutella Waffle</h5>
+        <img src="jamic.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 20 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">55 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Qeshta with Honey & Pistachio Waffle</h5>
+        <img src="wafflepis.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 21 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">37 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Large Chocolate Waffle</h5>
+        <img src="chowaf.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 22 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">30 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4">Small Jamica Waffle</h5>
+        <img src="jamic.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+        </div>
+                
+
+
+       <button class="btn btn-primary" onclick="addToCartClicked(this)">Add to Cart</button>
+    </div>
+</div>
+<!-- Product 23 -->
+<div class="col-lg-3 col-md-6 mb-4 pb-2">
+    <div class="product-item d-flex flex-column align-items-center text-center bg-light rounded py-5 px-3">
+        <div class="bg-primary mt-n5 py-3" style="width: 80px;">
+            <h4 class="font-weight-bold text-white mb-0">40 EGP</h4>
+        </div>
+        <h5 class="font-weight-bold mb-4"> jam crepe</h5>
+        <img src="jam.jpg" class="img-fluid mb-4">
+        <div class="quantity-input d-flex align-items-center justify-content-center mb-4">
+            <button class="btn btn-primary" onclick="decrementQuantity(this)">-</button>
+            <input type="text" value="1" readonly class="form-control mx-2">
+            <button class="btn btn-primary" onclick="incrementQuantity(this)">+</button>
+
+    
+        </div>
+      </div>
+   
+</div>
+
+
+<!-- Product 24 -->
+
+
+
+
+    <style >
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .step {
+    margin-bottom: 20px;
+}
+
+.step.active {
+    display: block;
+}
+
+        
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+   
+    #cart-items {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    
+    .cart-item {
+        margin-bottom: 10px;
+    }
+    
+    /* Style for the shipping information */
+    #shipping-info label {
+        font-weight: bold;
+    }
+    
+    /* Style for the order confirmation */
+    #order-confirm p {
+        margin-bottom: 10px;
+    }
+    
+    /* Style for the place order button */
+    #order-confirm button {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: 0;
+    }
+    
+    /* Style for the order placed message */
+    #order-placed p {
+        font-weight: bold;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    
+    </style>
+    
+        <div id="checkout" class="container" style="display: none;">
+            <h1>Checkout</h1>
+    
+        <!-- Cart items -->
+      
+        <!-- Shipping information -->
+        <div id="shipping-info" class="step">
+            <h2>Shipping Information</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+            <label for="address">Address:</label>
+            <input type="text" id="address" required><br>
+        </div>
+
+        <!-- Order confirmation -->
+        <div id="order-confirm" class="step">
+            <h2>Order Confirmation</h2>
+            <p>Review your order:</p>
+            <div id="order-summary"></div>
+            <button onclick="placeOrder()">Place Order</button>
+        </div>
+
+        <!-- Order placed -->
+        <div id="order-placed" class="step">
+            <h2>Order Placed</h2>
+            <p>Your order has been placed successfully!</p>
+        </div>
+    </div>
+
+
+    <div class="col-lg-3 mb-4 pb-2">
+        <button onclick="showCheckout()" class="btn btn-primary">Go to Checkout</button>
+    </div>
+    
+     <!-- Footer Start -->
+     <div class="container-fluid footer bg-light py-5" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="row">
+                <div class="col-12 mb-4">
+                    <a href="index.html" class="navbar-brand m-0">
+                        <h1 class="m-0 mt-n2 display-4 text-primary"><span class="text-secondary">Madina</span>Monawara</h1>
+                    </a>
+                </div>
+                <div class="col-12 mb-4">
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.facebook.com/ElMadinaElMenawara"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-secondary btn-social mr-2" href="https://www.tiktok.com/@elmadina.elmonawara"><i class="fab fa-tiktok"></i></a>
+                    <a class="btn btn-outline-secondary btn-social" href="https://www.instagram.com/elmadina.elmonawara/?hl=en"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="col-12 mt-2 mb-4">
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right border-right mb-3 mb-sm-0">
+                            <h5 class="font-weight-bold mb-2">Get In Touch</h5>
+                            <p class="mb-2">Street 9, Maadi Egypt</p>
+                            <p class="mb-0">+012 345 67890</p>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <h5 class="font-weight-bold mb-2">Opening Hours</h5>
+                            <p class="mb-2">Everyday 10AM – 10PM</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+    
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary px-2 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+    
+    
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+    
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+    
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    
+</body>
+</html>
+
+</body>
+
+</html>
+<script>
+function incrementQuantity(btn) {
+    var quantityInput = btn.parentNode.querySelector('input[type="text"]');
+    var currentValue = parseInt(quantityInput.value);
+    if (currentValue < 10) { // Set maximum quantity
+        quantityInput.value = currentValue + 1;
+    }
+}
+
+function decrementQuantity(btn) {
+    var quantityInput = btn.parentNode.querySelector('input[type="text"]');
+    var currentValue = parseInt(quantityInput.value);
+    if (currentValue > 1) { // Set minimum quantity
+        quantityInput.value = currentValue - 1;
+    }
+
+}
+
+function showCheckout() {
+ 
+    const checkoutSection = document.getElementById('checkout');
+    checkoutSection.style.display = 'block';
+}
+
+// Function to add item to cart
+// Initialize cartItems array
+let cartItems = [];
+
+// Function to add item to cart
+function addItemToCart(item) {
+    cartItems.push(item);
+    displayCart();
+}
+
+// Function to display cart items
+function displayCart() {
+    const cartContainer = document.getElementById('cart-items');
+    cartContainer.innerHTML = '';
+
+    // Loop through each item in the cart
+    cartItems.forEach(item => {
+        // Create a div element for the cart item
+        const cartItemElement = document.createElement('div');
+        cartItemElement.classList.add('cart-item');
+        
+        // Set the inner HTML of the cart item
+        cartItemElement.innerHTML = `
+            <div class="row">
+                <div class="col">${item.name}</div>
+                <div class="col">$${item.price.toFixed(2)}</div>
+            </div>
+        `;
+        
+        // Append the cart item to the cart container
+        cartContainer.appendChild(cartItemElement);
+    });
+
+    // Show the shipping information step
+    showStep('shipping-info');
+}
+
+// Function to show a step
+function showStep(stepId) {
+    const steps = document.querySelectorAll('.step');
+    steps.forEach(step => {
+        if (step.id === stepId) {
+            step.classList.add('active');
+        } else {
+            step.classList.remove('active');
+        }
+    });
+}
+
+
+
+function placeOrder() {
+    // Get the values of the name and address fields
+    const name = document.getElementById('name').value;
+    const address = document.getElementById('address').value;
+
+    // Check if both fields are filled
+    if (name.trim() === '' || address.trim() === '') {
+        alert('Please fill in all shipping information.');
+        return; // Stop further execution
+    }
+
+    // Here you could implement further processing such as sending the order to a server
+    // For now, let's just show an order confirmation
+    const orderSummary = document.getElementById('order-summary');
+    orderSummary.innerHTML = '';
+
+    let totalPrice = 0;
+
+    cartItems.forEach(item => {
+        const orderItemElement = document.createElement('div');
+        orderItemElement.textContent = `${item.name} - $${item.price.toFixed(2)}`;
+        orderSummary.appendChild(orderItemElement);
+
+        totalPrice += item.price;
+    });
+
+    orderSummary.innerHTML += `<p><strong>Total: $${totalPrice.toFixed(2)}</strong></p>`;
+
+    showStep('order-placed');
+
+    // Clear cart after placing order
+    cartItems = [];
+    displayCart();
+}
+
+function addItemToCart(name, price) {
+    const item = { name: name, price: price };
+    cartItems.push(item);
+    displayCart();
+}
+
+// Function to handle clicking the "Add to Cart" button
+function addToCartClicked(button) {
+    const product = button.parentNode.parentNode;
+    const name = product.querySelector('h5').innerText;
+    const priceString = product.querySelector('.font-weight-bold').innerText;
+    const price = parseFloat(priceString.substring(0, priceString.indexOf(' '))); // Extracting the price from the string
+    addItemToCart(name, price);
+}
+
+// Function to initialize the product buttons
+function initializeProductButtons() {
+    const addToCartButtons = document.querySelectorAll('.product-item button');
+    addToCartButtons.forEach(button => {
+        button.addEventListener('click', function() {
+            addToCartClicked(this);
+        });
+    });
+}
+
+// Initialize product buttons
+initializeProductButtons();
+
+// Function to show checkout section
+
+
+
+</script>
